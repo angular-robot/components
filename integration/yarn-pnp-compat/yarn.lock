@@ -32,7 +32,7 @@ __metadata:
 
 "@angular-devkit/build-angular@file:../../node_modules/@angular-devkit/build-angular::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular-devkit/build-angular@file:../../node_modules/@angular-devkit/build-angular#../../node_modules/@angular-devkit/build-angular::hash=e6c537&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular-devkit/build-angular@file:../../node_modules/@angular-devkit/build-angular#../../node_modules/@angular-devkit/build-angular::hash=53133e&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     "@ampproject/remapping": "npm:2.3.0"
     "@angular-devkit/architect": "npm:0.1900.0-next.3"
@@ -97,53 +97,7 @@ __metadata:
     webpack-dev-server: "npm:5.1.0"
     webpack-merge: "npm:6.0.1"
     webpack-subresource-integrity: "npm:5.1.0"
-  peerDependencies:
-    "@angular/compiler-cli": ^19.0.0-next.0
-    "@angular/localize": ^19.0.0-next.0
-    "@angular/platform-server": ^19.0.0-next.0
-    "@angular/service-worker": ^19.0.0-next.0
-    "@angular/ssr": ^19.0.0-next.3
-    "@web/test-runner": ^0.18.0
-    browser-sync: ^3.0.2
-    jest: ^29.5.0
-    jest-environment-jsdom: ^29.5.0
-    karma: ^6.3.0
-    ng-packagr: ^19.0.0-next.0
-    protractor: ^7.0.0
-    tailwindcss: ^2.0.0 || ^3.0.0
-    typescript: ">=5.5 <5.7"
-  dependenciesMeta:
-    esbuild:
-      built: true
-      optional: true
-    puppeteer:
-      built: true
-  peerDependenciesMeta:
-    "@angular/localize":
-      optional: true
-    "@angular/platform-server":
-      optional: true
-    "@angular/service-worker":
-      optional: true
-    "@angular/ssr":
-      optional: true
-    "@web/test-runner":
-      optional: true
-    browser-sync:
-      optional: true
-    jest:
-      optional: true
-    jest-environment-jsdom:
-      optional: true
-    karma:
-      optional: true
-    ng-packagr:
-      optional: true
-    protractor:
-      optional: true
-    tailwindcss:
-      optional: true
-  checksum: 10/f9f362aabb97c2f0dc3054daa2a2e7d3f856d940072837e81b65b6712be410c6a28db043d6eaacf5d574a243529e8c52470cef0a95088212c6b13a3db5c1781a
+  checksum: 10/e1b04b7d63a196605a2db1127da5066dade4f0bcb0a37a7ad4eaefd894616a2622abe62d2c5ebc4ff34f1fcddad84b26f86725aa56299e5b3c7e260f2f4d311e
   languageName: node
   linkType: hard
 
@@ -209,12 +163,10 @@ __metadata:
 
 "@angular/animations@file:../../node_modules/@angular/animations::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/animations@file:../../node_modules/@angular/animations#../../node_modules/@angular/animations::hash=438681&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/animations@file:../../node_modules/@angular/animations#../../node_modules/@angular/animations::hash=d1c0bf&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/core": 19.0.0-next.3
-  checksum: 10/385522a24fcf19c35c42870310b53b76922ed3d869f55a5529e40b5e514566f2b6784735b73409be7871a0f45d76c4d959777b91d509a28efc5098b0e56054fe
+  checksum: 10/6325fe974d8154ac0c08aacab29d642e431f42ed9a510a2589bf4101d5d098c62016c29a23d45cf2bd9245e8cc8058ca06253e4ae86b2d90b6bd8312694400f1
   languageName: node
   linkType: hard
 
@@ -283,24 +235,17 @@ __metadata:
 
 "@angular/cdk@file:../../dist/releases/cdk::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.0+sha-c861b5d-with-local-changes
-  resolution: "@angular/cdk@file:../../dist/releases/cdk#../../dist/releases/cdk::hash=4dfb22&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/cdk@file:../../dist/releases/cdk#../../dist/releases/cdk::hash=904592&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     parse5: "npm:^7.1.2"
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/common": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/core": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    rxjs: ^6.5.3 || ^7.4.0
-  dependenciesMeta:
-    parse5:
-      optional: true
-  checksum: 10/a4f5330e1172b4a264a1a96d73c1f12748c4c5d3c90c4cf2ab725f21f686327403cef4615e6bfcefb0f772cd1a572f965ef9b0db1a4b84734f5ad327df7496d0
+  checksum: 10/7f376a6d15ba65e11c572721960e3d5151d8863bab6611c168ec1c5a751369a6062f96b453abbe1404edd9dc31710ef81a4d2e2a4f42f1c80d1536694e7ff09e
   languageName: node
   linkType: hard
 
 "@angular/cli@file:../../node_modules/@angular/cli::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/cli@file:../../node_modules/@angular/cli#../../node_modules/@angular/cli::hash=31d485&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/cli@file:../../node_modules/@angular/cli#../../node_modules/@angular/cli::hash=3ee3f9&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     "@angular-devkit/architect": "npm:0.1900.0-next.3"
     "@angular-devkit/core": "npm:19.0.0-next.3"
@@ -319,32 +264,22 @@ __metadata:
     semver: "npm:7.6.3"
     symbol-observable: "npm:4.0.0"
     yargs: "npm:17.7.2"
-  dependenciesMeta:
-    esbuild:
-      built: true
-    puppeteer:
-      built: true
-  bin:
-    ng: ./bin/ng.js
-  checksum: 10/8dad6001caf3edc185cef2928c2c8e3c13efe5e49d7ab666f7808e7637fd21886c31fd0f1f8635898bcc5d3ee09e74c31a5521f5ab242a6b44d803c1aacbd965
+  checksum: 10/4a7826be125ed19d4d3771e6ce99adb6f59645fe092536e917acad6b53bd4c642eabc9722907bc3967d47153607480850cf6c5ba853449e4b92af1bb62d7dc3a
   languageName: node
   linkType: hard
 
 "@angular/common@file:../../node_modules/@angular/common::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/common@file:../../node_modules/@angular/common#../../node_modules/@angular/common::hash=56b54e&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/common@file:../../node_modules/@angular/common#../../node_modules/@angular/common::hash=eec8e1&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/core": 19.0.0-next.3
-    rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10/5c03bd79a1b4f6fa6c4f6993b03b67d95605e11f93a699071ccd1122548642d7ecb6e3241d4e274eddb011828812de36e17595f03bbceaf21653f87f2ccff614
+  checksum: 10/9c3dd43e13283c1d3c9ed5c1354a5f0ad180783607e488e84d36e115ee192188c771c9e94cbe2525f027d3aed4f74f92698b481d2435ab45bf196af341b6954e
   languageName: node
   linkType: hard
 
 "@angular/compiler-cli@file:../../node_modules/@angular/compiler-cli::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/compiler-cli@file:../../node_modules/@angular/compiler-cli#../../node_modules/@angular/compiler-cli::hash=04dc18&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/compiler-cli@file:../../node_modules/@angular/compiler-cli#../../node_modules/@angular/compiler-cli::hash=b14827&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     "@babel/core": "npm:7.25.2"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -354,132 +289,79 @@ __metadata:
     semver: "npm:^7.0.0"
     tslib: "npm:^2.3.0"
     yargs: "npm:^17.2.1"
-  peerDependencies:
-    "@angular/compiler": 19.0.0-next.3
-    typescript: ">=5.5 <5.7"
-  bin:
-    ng-xi18n: ./bundles/src/bin/ng_xi18n.js
-    ngc: ./bundles/src/bin/ngc.js
-    ngcc: ./bundles/ngcc/index.js
-  checksum: 10/f2731b6bf8dc8070142f0b73c28010548ce3cfbb1de68295c4c317b02e4bfd9bc6d1e2fdc758cfd73f1382d0cb2b7e5f5699e892c0428a7b7221942944bc265f
+  checksum: 10/be2336fe46ad6f03fa98f23baa9b53daedb8f5c674f5502adcf1664ee513bcccc0f763447667aa26ca11ffea1d07b2eead13317a3143cf920cc09daaedecb2e6
   languageName: node
   linkType: hard
 
 "@angular/compiler@file:../../node_modules/@angular/compiler::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/compiler@file:../../node_modules/@angular/compiler#../../node_modules/@angular/compiler::hash=53521f&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/compiler@file:../../node_modules/@angular/compiler#../../node_modules/@angular/compiler::hash=48717b&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/core": 19.0.0-next.3
-  peerDependenciesMeta:
-    "@angular/core":
-      optional: true
-  checksum: 10/340113e7a59ef1affd011a41ec3745363a3e35a916aeb0c351e4e67d2eef3a6b015500ec3014a4d785ee69f86b1b40a60b0b8583845bee9a29f7ec3871bd0615
+  checksum: 10/a31003f30d0f31e814bb4fc105c1fe6552290b4481afb9714865dc0fd61870bd879f7c282763960824e86c1fdce8726bfe9742be144d214fce8c22774a722425
   languageName: node
   linkType: hard
 
 "@angular/core@file:../../node_modules/@angular/core::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/core@file:../../node_modules/@angular/core#../../node_modules/@angular/core::hash=76a72f&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/core@file:../../node_modules/@angular/core#../../node_modules/@angular/core::hash=e2a1ff&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    rxjs: ^6.5.3 || ^7.4.0
-    zone.js: ~0.15.0
-  checksum: 10/717373e25c92f10b7205cb84f05ee2ab5037cba40ff86cac9e7e618739cc88473ac19f3efbde24021c498cfc4a557dc6f270a9b9b9d7dd021a25d18bb8d586eb
+  checksum: 10/2b67a42d59cc03b9bf0e2dc02f52a844b7447044e24c83b9a1b0bb6a2eea4558b0ea4328078120aa1c70d722a35b0db7954bcacfded4f92e288a12526ad6beb9
   languageName: node
   linkType: hard
 
 "@angular/forms@file:../../node_modules/@angular/forms::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/forms@file:../../node_modules/@angular/forms#../../node_modules/@angular/forms::hash=a62984&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/forms@file:../../node_modules/@angular/forms#../../node_modules/@angular/forms::hash=8b2e19&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/common": 19.0.0-next.3
-    "@angular/core": 19.0.0-next.3
-    "@angular/platform-browser": 19.0.0-next.3
-    rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10/a51685cec09cb341b5259fb4e4ad9acc2927e55d9a0c304b5310847704ef35315ac4efffc7eaed83188b6638e60f60beb80d6eb8b21638597dfd115ce4c8c903
+  checksum: 10/cf15ce767a22e364c934e3c0994a30c2402c814bb009f7091ab4da9659ed0ec8a165c95604196b3b691d93e2fd78f0015b3ca885e453ebe4f1093a0deef0b58c
   languageName: node
   linkType: hard
 
 "@angular/material-experimental@file:../../dist/releases/material-experimental::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.0+sha-c861b5d-with-local-changes
-  resolution: "@angular/material-experimental@file:../../dist/releases/material-experimental#../../dist/releases/material-experimental::hash=67093f&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/material-experimental@file:../../dist/releases/material-experimental#../../dist/releases/material-experimental::hash=15b45c&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/animations": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/cdk": 19.0.0-next.0+sha-c861b5d-with-local-changes
-    "@angular/common": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/core": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/forms": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/material": 19.0.0-next.0+sha-c861b5d-with-local-changes
-    "@angular/platform-browser": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-  checksum: 10/28722fd4d0dbfba36ec0147bf18bd8b71a8c513729daf0ef58a1bc449e1a60bc268948dd7c5a7667acd31bfe553611ff1fddb1b21966d4ce3a9e6aad6987d671
+  checksum: 10/d907f854e40eeb13abeb683012e62da148fcdf2c84be2e0bc73b88f163a8675ce8a8ccb0d80faff88ec8c239291ad7820a0a4567bfbda1ea727e1b00412f35d9
   languageName: node
   linkType: hard
 
 "@angular/material@file:../../dist/releases/material::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.0+sha-c861b5d-with-local-changes
-  resolution: "@angular/material@file:../../dist/releases/material#../../dist/releases/material::hash=e76dde&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/material@file:../../dist/releases/material#../../dist/releases/material::hash=c799ef&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/animations": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/cdk": 19.0.0-next.0+sha-c861b5d-with-local-changes
-    "@angular/common": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/core": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/forms": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    "@angular/platform-browser": ^19.0.0-0 || ^19.1.0-0 || ^19.2.0-0 || ^19.3.0-0 || ^20.0.0-0
-    rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10/d4927504b358da55de65443859df61bfd2258ff97d0ff04dabfa0e400bdabc23113f18e7eddf4b80549ec37e8235acf243da250e257d407837158db7017981ca
+  checksum: 10/ffcc18d93d20d55d172ead8ba4d094852c39d335656a9a3002e445fd0c14a9a2aa912eb6f0ee5de847da024e68a174c9b0ed0254856733b54c6ba3e19e585352
   languageName: node
   linkType: hard
 
 "@angular/platform-browser-dynamic@file:../../node_modules/@angular/platform-browser-dynamic::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/platform-browser-dynamic@file:../../node_modules/@angular/platform-browser-dynamic#../../node_modules/@angular/platform-browser-dynamic::hash=9e2651&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/platform-browser-dynamic@file:../../node_modules/@angular/platform-browser-dynamic#../../node_modules/@angular/platform-browser-dynamic::hash=8fe71e&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/common": 19.0.0-next.3
-    "@angular/compiler": 19.0.0-next.3
-    "@angular/core": 19.0.0-next.3
-    "@angular/platform-browser": 19.0.0-next.3
-  checksum: 10/f9704c892d4ecd39e57bea54a7f14872c3698e831badd1c527fcf7ea34afac9ad48110df1cc03cbcc6db3353b2d786ba8d02b58294b56fbb414bc2b1aa9d3936
+  checksum: 10/9fbc7309a705dc3a211ad5dc4b7d8662c74dd901ab86a55e3b85924b6cbea764af549c45a1218db138444c1b873e4584dfbba4553bb9ca035a74afd84102d6e1
   languageName: node
   linkType: hard
 
 "@angular/platform-browser@file:../../node_modules/@angular/platform-browser::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/platform-browser@file:../../node_modules/@angular/platform-browser#../../node_modules/@angular/platform-browser::hash=1de85b&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/platform-browser@file:../../node_modules/@angular/platform-browser#../../node_modules/@angular/platform-browser::hash=b0e9d3&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/animations": 19.0.0-next.3
-    "@angular/common": 19.0.0-next.3
-    "@angular/core": 19.0.0-next.3
-  peerDependenciesMeta:
-    "@angular/animations":
-      optional: true
-  checksum: 10/1a24d67b2e70ee413c5c6a2269e566e32380abb87e02dbdc44fa6fc859d16d8637c4a16aff67a37b1afb068999efe99bdf16450c1215edc713f31ddf6e9b994e
+  checksum: 10/e24195423abcce1d8238668eb2b49328a40554d96e4e7dfec1a99d4d0349a0b0fc32b87a08b7597b36aac54780e113574ee59668bbb46059bc23c2aaee41bf08
   languageName: node
   linkType: hard
 
 "@angular/router@file:../../node_modules/@angular/router::locator=yarn-pnp-compat%40workspace%3A.":
   version: 19.0.0-next.3
-  resolution: "@angular/router@file:../../node_modules/@angular/router#../../node_modules/@angular/router::hash=9df5e0&locator=yarn-pnp-compat%40workspace%3A."
+  resolution: "@angular/router@file:../../node_modules/@angular/router#../../node_modules/@angular/router::hash=f507f7&locator=yarn-pnp-compat%40workspace%3A."
   dependencies:
     tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@angular/common": 19.0.0-next.3
-    "@angular/core": 19.0.0-next.3
-    "@angular/platform-browser": 19.0.0-next.3
-    rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10/2f2982bc5a4105ec67630b0a8c74dc944374c913cb2c5a51fed34289f7c05146dd96e1d0eb3c14afcb3f8b3cf326447d3ebf718ffd501a37a33e4df0a0185df1
+  checksum: 10/93958adee9445686297aff38e2632498ce1e69d53c727dd4aa4dd90784f8085c7db75af6d8fc46c2ca39522a766eb097627e05a18b52e6e47bec237b501748c7
   languageName: node
   linkType: hard
 
@@ -4052,7 +3934,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"body-parser@npm:1.20.3":
+"body-parser@npm:1.20.3, body-parser@npm:^1.19.0":
   version: 1.20.3
   resolution: "body-parser@npm:1.20.3"
   dependencies:
@@ -4069,26 +3951,6 @@ __metadata:
     type-is: "npm:~1.6.18"
     unpipe: "npm:1.0.0"
   checksum: 10/8723e3d7a672eb50854327453bed85ac48d045f4958e81e7d470c56bf111f835b97e5b73ae9f6393d0011cc9e252771f46fd281bbabc57d33d3986edf1e6aeca
-  languageName: node
-  linkType: hard
-
-"body-parser@npm:^1.19.0":
-  version: 1.20.2
-  resolution: "body-parser@npm:1.20.2"
-  dependencies:
-    bytes: "npm:3.1.2"
-    content-type: "npm:~1.0.5"
-    debug: "npm:2.6.9"
-    depd: "npm:2.0.0"
-    destroy: "npm:1.2.0"
-    http-errors: "npm:2.0.0"
-    iconv-lite: "npm:0.4.24"
-    on-finished: "npm:2.4.1"
-    qs: "npm:6.11.0"
-    raw-body: "npm:2.5.2"
-    type-is: "npm:~1.6.18"
-    unpipe: "npm:1.0.0"
-  checksum: 10/3cf171b82190cf91495c262b073e425fc0d9e25cc2bf4540d43f7e7bbca27d6a9eae65ca367b6ef3993eea261159d9d2ab37ce444e8979323952e12eb3df319a
   languageName: node
   linkType: hard
 
@@ -6969,17 +6831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
-  version: 4.0.7
-  resolution: "micromatch@npm:4.0.7"
-  dependencies:
-    braces: "npm:^3.0.3"
-    picomatch: "npm:^2.3.1"
-  checksum: 10/a11ed1cb67dcbbe9a5fc02c4062cf8bb0157d73bf86956003af8dcfdf9b287f9e15ec0f6d6925ff6b8b5b496202335e497b01de4d95ef6cf06411bc5e5c474a0
-  languageName: node
-  linkType: hard
-
-"micromatch@npm:^4.0.8":
+"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -8055,15 +7907,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:6.11.0":
-  version: 6.11.0
-  resolution: "qs@npm:6.11.0"
-  dependencies:
-    side-channel: "npm:^1.0.4"
-  checksum: 10/5a3bfea3e2f359ede1bfa5d2f0dbe54001aa55e40e27dc3e60fab814362d83a9b30758db057c2011b6f53a2d4e4e5150194b5bac45372652aecb3e3c0d4b256e
-  languageName: node
-  linkType: hard
-
 "qs@npm:6.13.0":
   version: 6.13.0
   resolution: "qs@npm:6.13.0"
@@ -8742,7 +8585,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"side-channel@npm:^1.0.4, side-channel@npm:^1.0.6":
+"side-channel@npm:^1.0.6":
   version: 1.0.6
   resolution: "side-channel@npm:1.0.6"
   dependencies:
