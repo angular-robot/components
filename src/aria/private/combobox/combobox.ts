@@ -193,7 +193,17 @@ export class ComboboxPattern {
   }
 
   /** Handles focus out events for the combobox. */
-  onFocusout(event: FocusEvent) {
+  onFocusout() {
+    // Give focus some time to move before we check it.
+    setTimeout(() => {
+      const comboboxFocused = this.isFocused();
+      const popupFocused = !!this.inputs.popup()?.isFocused();
+
+      if (!this.inputs.alwaysExpanded() && !comboboxFocused && !popupFocused) {
+        this.inputs.expanded.set(false);
+      }
+    });
+
     this.isFocused.set(false);
   }
 
@@ -242,16 +252,6 @@ export class ComboboxPattern {
         popup?.controlTarget()?.dispatchEvent(relayedEvent);
       }
     });
-  }
-
-  /** Closes the popup when focus leaves the combobox and popup. */
-  closePopupOnBlurEffect() {
-    const expanded = this.isExpanded();
-    const comboboxFocused = this.isFocused();
-    const popupFocused = !!this.inputs.popup()?.isFocused();
-    if (expanded && !this.inputs.alwaysExpanded() && !comboboxFocused && !popupFocused) {
-      this.inputs.expanded.set(false);
-    }
   }
 }
 

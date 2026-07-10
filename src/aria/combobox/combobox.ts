@@ -73,7 +73,7 @@ import type {ComboboxPopup} from './combobox-popup';
     '[attr.readonly]': 'disabled() && _pattern.isEditable() ? "" : null',
     '(keydown)': '_pattern.onKeydown($event)',
     '(focusin)': '_pattern.onFocusin()',
-    '(focusout)': '_pattern.onFocusout($event)',
+    '(focusout)': '_pattern.onFocusout()',
     '(click)': '_pattern.onClick($event)',
     '(input)': '_pattern.onInput($event)',
   },
@@ -126,7 +126,6 @@ export class Combobox extends DeferredContentAware implements OnInit {
     super();
 
     afterRenderEffect({write: () => this._pattern.keyboardEventRelayEffect()});
-    afterRenderEffect(() => this._pattern.closePopupOnBlurEffect());
     afterRenderEffect(() => {
       this.contentVisible.set(this._pattern.isExpanded());
     });
